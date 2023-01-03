@@ -24,9 +24,12 @@ export const App = () => {
 
 	return (
 		<main>	
+			<div class = 'wiki'>
       <h1>WikiVerse</h1>
 			<h2>An interesting 📚</h2>
+			</div>
 			<PagesList pages={pages} />
+
 		</main>
 	)
 }
